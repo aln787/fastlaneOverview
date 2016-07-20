@@ -256,6 +256,11 @@ fastlane init
 
 ##Deploying to iTunes-Connects Test-flight
 <img src="images/testFlight-iTunesConnect.gif">
+
+
+##Travis CI Fastlane test
+![](images/travisTest.gif)
+
 ---
 
 ![](images/tips.png)
