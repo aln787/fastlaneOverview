@@ -17,7 +17,7 @@
 
 <img src="images/CapitalOneLabs_Overview.png" height="600">
 <br>
-<small><a href="http://capitalonecareers.com/">Capital One</a></small>
+<small><a href="https://capitalonecareers.com/">Capital One</a></small>
 
 
 <img src="images/CapitalOneLabs_Work.png" height="600">
@@ -83,7 +83,7 @@
 
 
 ###Making Progress
-<iframe src="http://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
 
 
@@ -127,7 +127,7 @@
 
 
 ###This is taking too long!!
-<iframe src="http://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- MindyProjectI-HaveStandards-life-up-3SCKnFChtClxK -->
 
 ---
@@ -164,7 +164,7 @@
 
 
 ###So many steps
-<iframe src="http://giphy.com/embed/lYKvaJ8EQTzCU?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/lYKvaJ8EQTzCU?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- jon-stewart-why-lYKvaJ8EQTzCU -->
 
 
@@ -189,7 +189,7 @@
 
 
 ###Help!!!
-<iframe src="http://giphy.com/embed/H2VD6psStWlJ6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/H2VD6psStWlJ6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- Help-H2VD6psStWlJ6 -->
 
 ---
@@ -304,7 +304,7 @@ vi "$(xcode-select -p)/../Applications/Application Loader.app/Contents/itms/java
 
 
 ##Appfile
-![](images/appFile.png)
+![](images/appfile.png)
 
 ---
 
@@ -418,7 +418,7 @@ fastlane ios profiles
 
 
 ##Wow, that was easy!
-<iframe src="http://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- GetTheBabby-vBVCam8nE7uxy -->
 
 ---
@@ -431,7 +431,7 @@ fastlane ios profiles
 
 
 ####The easy way!!
-<iframe src="http://giphy.com/embed/qyCDVJBPdBET6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/qyCDVJBPdBET6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- penguinSlide_hereWeGo-9UCStxAde7lK or PT88CWkUepFpS or qyCDVJBPdBET6 or rFrju0XGospHi or l49FvM5VWIPnyiyVW-->
 
 
@@ -441,7 +441,7 @@ fastlane ios profiles
 ![](images/withFastLane/11-Jenkins-Stable-Output-2.png)
 
 
-<iframe src="http://giphy.com/embed/tbAY4hlx9fzjy?hideSocial=true" width="400" height="400" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/tbAY4hlx9fzjy?hideSocial=true" width="400" height="400" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- Flying?-tbAY4hlx9fzjy -->
 
 
@@ -477,10 +477,10 @@ fastlane ios profiles
 
 
 ###Success!!!
-<iframe src="http://giphy.com/embed/PzOm3LPWu7fJS?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<iframe src="https://giphy.com/embed/PzOm3LPWu7fJS?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <!-- victory-reaction-jennifer-lawrence-PzOm3LPWu7fJS -->
 <!-- ####Now we are getting some love! Much better!! -->
-<!-- <iframe src="http://giphy.com/embed/2ur8NS5TYQmK4?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe> -->
+<!-- <iframe src="https://giphy.com/embed/2ur8NS5TYQmK4?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe> -->
 <!-- CuddleFest-2ur8NS5TYQmK4 -->
 
 
@@ -522,7 +522,7 @@ fastlane ios profiles
 ###Thank you!!! 
 ![](images/FrozenVictory.jpg)
 
-<!-- <iframe src="http://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe> -->
+<!-- <iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe> -->
 
 ---
 
