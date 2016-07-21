@@ -250,6 +250,10 @@ fastlane init
 ##In action
 
 
+##Adding a new App to the ADP and iTC
+![](images/addA_newAppTo_itc_and_adp.gif)
+
+
 ##Testing your app
 <img src="images/test.gif">
 
@@ -327,6 +331,12 @@ SLACK_URL='https://hooks.slack.com/services/T1SAACXKM/B1SBLBA68/ZRJNnEKGVIOvpQvD
 
 ![](images/slackAction.png)
 
+
+##Example Channel
+![](images/FastLaneSlackStatusMessages.png)
+
+- https://ios-dev-camp-dc.slack.com/messages/build-status/
+
 ---
 
 ![](images/fastlane_logo.png)
@@ -356,7 +366,7 @@ SLACK_URL='https://hooks.slack.com/services/T1SAACXKM/B1SBLBA68/ZRJNnEKGVIOvpQvD
   - Adds a new app with the details your provided as environment variables
 
 ```
-$ fastlane ios profiles
+$ fastlane ios addNewApp
 ```
 
 ![](images/withFastLane/fastLaneIosProfiles.png)
