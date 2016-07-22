@@ -26,6 +26,7 @@
 
 ---
 
+##Why
 ![](images/fastlane_logo.png)
 
 
@@ -35,7 +36,8 @@
 - [Details](https://fastlane.tools/)
 
 
-![](images/withFastLane/FastlaneTools.png)
+##Time Saving
+![](images/hoursSaved.png)
 
 
 ![](images/withFastLane/FastLaneAndriodBeta.png)
@@ -49,11 +51,11 @@
 ####Has an active / inviting community
 #####*Example Issues:*
 - [Resigning issue](https://github.com/fastlane/fastlane/issues/3934#issuecomment-201253429)
-- [pilot submission failure](https://github.com/fastlane/fastlane/issues/3982#issuecomment-203542842)
-- [Abstraction attempts](https://github.com/fastlane/fastlane/issues/3920#issuecomment-201247917)
 - [Request for a multi app template](https://github.com/fastlane/fastlane/issues/327)
-- [Example Lanes](https://github.com/fastlane/fastlane/issues/428)
-- [Running with no Fastfile](https://github.com/fastlane/fastlane/issues/1404)
+
+
+##Fix-issue
+![](images/Fix-issue.png)
 
 ---
 
@@ -196,6 +198,7 @@
 
 ![](images/fastlane_logo.png)
 ##To the rescue
+- [follow along](https://github.com/aln787/fastlaneExample#getting-started-if-you-dont-have-ruby-230-or-bundler-installed-follow-the-steps-below)
 
 
 ##Fastlane CLI
@@ -210,6 +213,7 @@ fastlane action sigh
 ##Existing lane description
 ```
 fastlane list
+fastlane lanes
 ```
 
 ![](images/fastlaneLanes.png)
@@ -230,7 +234,11 @@ fastlane init
 ####Teams we have already automated
 ![](images/FastLaneAutomatedTeams.png)
 
-- [Details](https://github.kdc.capitalone.com/Nucleus/JenkinsDSL/wiki#fastlane-automated-teams)
+- [CashTapp](https://itunes.apple.com/us/app/cashtapp/id1085845144?mt=8)
+
+
+##CashTapp
+![](images/CashTapp.png)
 
 
 ### Working to build a community within the company
@@ -246,24 +254,69 @@ fastlane init
 
 ---
 
+#New iOS app set-up
+###_(with)_
+
+![](images/fastlane_logo.png)
+
+
+###Using Fastlane With our shared Fastfile Steps are automated
+- Apple developer portal
+  - Creates the App ID
+  - Sets entitlements 
+  - Generates provisioning profiles
+- iTunes-connect
+  - Adds a new app with the details your provided as environment variables
+
+```
+$ fastlane ios addNewApp
+```
+
+![](images/withFastLane/fastLaneIosProfiles.png)
+
+
+##Adding a new App to the ADP and iTC
+```
+fastlane ios addNewApp
+```
+
+![](images/addA_newAppTo_itc_and_adp.gif)
+
+
+##Wow, that was easy!
+<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- GetTheBabby-vBVCam8nE7uxy -->
+
+---
+
 ![](images/fastlane_logo.png)
 ##In action
 
 
-##Adding a new App to the ADP and iTC
-![](images/addA_newAppTo_itc_and_adp.gif)
-
-
 ##Testing your app
+```
+fastlane ios test
+```
+
 <img src="images/test.gif">
 
 
-##Deploying to iTunes-Connects Test-flight
+##Deploying to iTunes-Connect Test-flight
+```
+fastlane ios beta
+```
+
 <img src="images/testFlight-iTunesConnect.gif">
 
 
 ##Travis CI Fastlane test
 ![](images/travisTest.gif)
+
+
+##HockeyApp
+```
+fastlane ios hockeyApp
+```
 
 ---
 
@@ -316,7 +369,7 @@ vi "$(xcode-select -p)/../Applications/Application Loader.app/Contents/itms/java
 ![](images/slack_logo_wide.png)
 
 
-##Configure WebHook
+##[Configure WebHook](https://ios-dev-camp-dc.slack.com/apps/manage/custom-integrations)
 ![](images/slackConfigureWebHook.png)
 
 
@@ -341,95 +394,14 @@ SLACK_URL='https://hooks.slack.com/services/T1SAACXKM/B1SBLBA68/ZRJNnEKGVIOvpQvD
 
 ![](images/fastlane_logo.png)
 
-#Hockey App Support
+#Hockey App Distribution
 
 
+##Why Hockey App
 ![](images/hockeyApp/HockeyAppAppsAPI.png)
 
 
 ![](images/hockeyApp/HockeyAppVersionsAPI.png)
-
----
-
-#New iOS app set-up
-###_(with)_
-
-![](images/fastlane_logo.png)
-
-
-###Using Fastlane With our shared Fastfile Steps are automated
-- Apple developer portal
-  - Creates the App ID
-  - Sets entitlements 
-  - Generates provisioning profiles
-- iTunes-connect
-  - Adds a new app with the details your provided as environment variables
-
-```
-$ fastlane ios addNewApp
-```
-
-![](images/withFastLane/fastLaneIosProfiles.png)
-
-
-##Example
-```
-## 1. Set Variables
-# ITC Variables
-export APP_ID="com.capitalone.nucleus-ios-pilot-prod"
-export APP_Name="Nucleus iOS Pilot Prod"
-export SKU="LABS-NUCLEUS"
-export PROVISIONING_NAME="Nucleus iOS Pilot Prod"
-
-# Project Build Variables
-export WORKSPACE=" "
-export SCHEME="nucleus-ios-pilot"
-export PROJECT_FILE_PATH="nucleus-ios-pilot"
-export PROJECT_NAME="nucleus-ios-pilot"
-export PROVISIONING_PROFILE_PATH="AppStore_com.capitalone.nucleus-ios-pilot-prod.mobileprovision"
-
-# Shared Config for All Apps Using the Labs App Store License
-export TEAM_ID="NR7RF5923T"
-export CERT_ID="54ZX25X658"
-export KEY_CHAIN_PATH="/Users/$USER/Library/Keychains/Expiration-6-22-16__CERT_ID-54ZX25X658__TEAM_ID-NR7RF5923T.keychain"
-export CODESIGNING_IDENTITY="iPhone Distribution: Capital One Financial Corporation (NR7RF5923T)"
-export PROXY_URL="internal-innovation-httpproxy-1417235642.us-east-1.elb.amazonaws.com:80"
-export slackErrorMessage="ERROR building and deploying Nucleus-ios to iTunes Connect."
-export slackSuccessMessage="Successfully built Nucleus-ios and deployed to iTunes Connect."
-export SLACK_URL="https://hooks.slack.com/services/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"
-export FASTFILE_URL="https://github.kdc.capitalone.com/raw/xvo202/fastlaneSharedFastfile/v0.3.4/Fastfile"
-
-# Values to update for local releases
-export USER_Name="<email address>"
-export FAST_PASS=$FASTLANE_KEYPASS_EXP_6_22_16_CERT_ID_54ZX25X658_TEAM_ID_NR7RF5923T
-
-## 2. Retrieve the shared astfile
-# Getting and Injecting the Shared FastLane Config
-cd $PROJECT_FILE_PATH && \
-curl $FASTFILE_URL > Fastfile && \
-if [ ! -d "fastlane" ]; then
-  mkdir fastlane
-fi && \
-mv -f Fastfile fastlane/
-# Print Fast File Contents
-more fastlane/Fastfile
-
-## 3. Set the proxy
-# Proxy Configuration
-export DELIVER_ITMSTRANSPORTER_ADDITIONAL_UPLOAD_PARAMETERS='-t DAV' && \
-export http_proxy=$PROXY_URL && \
-export https_proxy=$PROXY_URL
-
-## 4. Run Fastlane
-# Fastlane - Download Signing Identities, Build and Deploy
-fastlane ios profiles
-```
-- [Shared Fastfile Repository](https://github.kdc.capitalone.com/xvo202/fastlaneSharedFastfile)
-
-
-##Wow, that was easy!
-<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- GetTheBabby-vBVCam8nE7uxy -->
 
 ---
 
