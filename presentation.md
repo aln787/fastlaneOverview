@@ -15,11 +15,6 @@
 <img src="images/Alex_and_Catelyn-CryatalMt-WA.png" height="600">
 
 
-<img src="images/CapitalOneLabs_Overview.png" height="600">
-<br>
-<small><a href="https://capitalonecareers.com/">Capital One</a></small>
-
-
 <img src="images/CapitalOneLabs_Work.png" height="600">
 <br>
 <small><a href="https://www.capitalonelabs.com/#/about">Capital One Labs</a></small>
@@ -63,32 +58,6 @@
 ###_(without fastlane)_
 
 
-![](images/itunesAndDevPortal/1-Nucleus_ITC.png)
-
-
-![](images/itunesAndDevPortal/2-Nucleus_ITC-AppInfo.png)
-
-
-![](images/itunesAndDevPortal/3-Nucleus_ITC-SubmitToAppStore.png)
-
-
-![](images/itunesAndDevPortal/4-Nucleus_ITC-SubmitToAppStore-1.png)
-
-
-![](images/itunesAndDevPortal/5-Nucleus_ITC-SubmitToAppStore-2.png)
-
-
-![](images/itunesAndDevPortal/6-Nucleus_ITC-SubmitToAppStore-3.png)
-
-
-![](images/itunesAndDevPortal/7-Nucleus_ITC-SubmitToAppStore-4.png)
-
-
-###Making Progress
-<iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
-
-
 ![](images/itunesAndDevPortal/8-Nucleus_DevPortal-SelectTeam.png)
 
 
@@ -102,6 +71,29 @@
 
 
 ![](images/itunesAndDevPortal/12-Nucleus_DevPortal-CreateNew-AppID-2.png)
+
+
+###Making Progress
+<iframe src="https://giphy.com/embed/l41lIioP4RFRmIVB6?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- dogRunning-afv-funny-fail-lol-l41lIioP4RFRmIVB6 -->
+
+
+![](images/addNewAppToItc.png)
+
+
+![](images/newAppAddedToItc.png)
+
+---
+
+#Releasing an iOS app
+###_(Without Fastlane)_
+
+
+####Apple Developer Portal
+![](images/itunesAndDevPortal/8-Nucleus_DevPortal-SelectTeam.png)
+
+
+![](images/itunesAndDevPortal/9-Nucleus_DevPortal-Menu.png)
 
 
 ![](images/itunesAndDevPortal/13-Nucleus_DevPortal-CreateNew-ProvisioningProfile.png)
@@ -126,16 +118,6 @@
 
 
 ![](images/itunesAndDevPortal/20-Nucleus_DevPortal-CreateNew-ProvisioningProfile-7-Download.png)
-
-
-###This is taking too long!!
-<iframe src="https://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- MindyProjectI-HaveStandards-life-up-3SCKnFChtClxK -->
-
----
-
-#Releasing an iOS app
-###_(Without Fastlane)_
 
 
 ##Navigate to the project
@@ -188,6 +170,33 @@
 
 ###Select the team again
 ![](images/itunesAndDevPortal/32-Nucleus_Xcode-ArchiveShareSettings-1.png)
+
+
+###This is taking too long!!
+<iframe src="https://giphy.com/embed/3SCKnFChtClxK?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- MindyProjectI-HaveStandards-life-up-3SCKnFChtClxK -->
+
+
+####iTunes-connect - Submit your app for review
+![](images/itunesAndDevPortal/1-Nucleus_ITC.png)
+
+
+![](images/itunesAndDevPortal/2-Nucleus_ITC-AppInfo.png)
+
+
+![](images/itunesAndDevPortal/3-Nucleus_ITC-SubmitToAppStore.png)
+
+
+![](images/itunesAndDevPortal/4-Nucleus_ITC-SubmitToAppStore-1.png)
+
+
+![](images/itunesAndDevPortal/5-Nucleus_ITC-SubmitToAppStore-2.png)
+
+
+![](images/itunesAndDevPortal/6-Nucleus_ITC-SubmitToAppStore-3.png)
+
+
+![](images/itunesAndDevPortal/7-Nucleus_ITC-SubmitToAppStore-4.png)
 
 
 ###Help!!!
@@ -245,11 +254,7 @@ fastlane init
 <img src="images/withFastLane/C1FastLaneCollaboration.png" height="400">
 
 
-### Empowering teams to manage their own jobs and enhance the overall capabilities
-<img src="images/withFastLane/TeamsAreManagingTheirOwnJobs.png" height="400">
-
-
-####Infrastructure from one of our internal teams
+####Internal Infrastructure
 ![](images/LabsBuildInfrastructureNoBoarder.png)
 
 ---
@@ -264,7 +269,6 @@ fastlane init
 - Apple developer portal
   - Creates the App ID
   - Sets entitlements 
-  - Generates provisioning profiles
 - iTunes-connect
   - Adds a new app with the details your provided as environment variables
 
@@ -309,14 +313,14 @@ fastlane ios beta
 <img src="images/testFlight-iTunesConnect.gif">
 
 
-##Travis CI Fastlane test
-![](images/travisTest.gif)
-
-
-##HockeyApp
+##Deploying to HockeyApp
 ```
 fastlane ios hockeyApp
 ```
+
+
+##Travis CI Fastlane test
+![](images/travisTest.gif)
 
 ---
 
@@ -470,6 +474,32 @@ SLACK_URL='https://hooks.slack.com/services/T1SAACXKM/B1SBLBA68/ZRJNnEKGVIOvpQvD
 
 ---
 
+![](images/fastlane_logo.png)
+##Next Steps
+- Go Migrate your application's CI/CD process to Fastlane
+- Being interacting with the community (https://github.com/fastlane/fastlane)
+- Start contributing
+
+---
+
+###Thank you!!! 
+![](images/FrozenVictory.jpg)
+
+<!-- <iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe> -->
+
+---
+
+#Appendix
+
+---
+
+![](images/fastlane_logo.png)
+
+#Ionic Support 
+##_(iOS and Android)_
+
+---
+
 ##Jenkins DSL
 ![](images/fastlane_plus_jenkins.png)
 
@@ -498,22 +528,3 @@ SLACK_URL='https://hooks.slack.com/services/T1SAACXKM/B1SBLBA68/ZRJNnEKGVIOvpQvD
 
 ####Shell Script - Part 2
 ![](images/withFastLane/9-Jenkins-StableConfig-4.png)
-
----
-
-###Thank you!!! 
-![](images/FrozenVictory.jpg)
-
-<!-- <iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe> -->
-
----
-
-#Appendix
-
----
-
-![](images/fastlane_logo.png)
-
-#Ionic Support 
-##_(iOS and Android)_
-
