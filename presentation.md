@@ -369,8 +369,8 @@ vi "$(xcode-select -p)/../Applications/Application Loader.app/Contents/itms/java
 
 ---
 
-##Integrations
 ![](images/slack_logo_wide.png)
+##Integration
 
 
 ##[Configure WebHook](https://ios-dev-camp-dc.slack.com/apps/manage/custom-integrations)
