@@ -244,12 +244,12 @@ fastlane lanes
 ![](images/fastlane_logo.png)
 
 
-###Using Fastlane With our shared Fastfile Steps are automated
+###Fastlane automates these steps
 - Apple developer portal
-  - Creates the App ID
-  - Sets default entitlements 
+  - Creating the App ID
+  - Seting default entitlements 
 - iTunes-connect
-  - Adds a new app with the details your provided as environment variables
+  - Adding a new app with the details your provided as environment variables
 
 
 ##Adding a new App to the ADP and iTC
