@@ -44,6 +44,8 @@
 ![](images/fastlane_logo.png)
 
 ####Has an active / inviting community
+- https://github.com/fastlane/fastlane 
+
 #####*Example Issues:*
 - [Resigning issue](https://github.com/fastlane/fastlane/issues/3934#issuecomment-201253429)
 - [Request for a multi app template](https://github.com/fastlane/fastlane/issues/327)
@@ -219,6 +221,15 @@ fastlane action sigh
 ![](images/sighAction.png)
 
 
+##New Project Set-up
+```
+fastlane init
+curl -k https://raw.githubusercontent.com/aln787/fastlaneExample/master/fastlane/Fastfile > fastlane/Fastfile
+curl -k https://raw.githubusercontent.com/aln787/fastlaneExample/master/fastlane/.env > fastlane/.env
+```
+![](images/fastlaneInit.png)
+
+
 ##Existing lane description
 ```
 fastlane list
@@ -227,12 +238,31 @@ fastlane lanes
 
 ![](images/fastlaneLanes.png)
 
+#New iOS app set-up
+###_(with)_
 
-##New Project Set-up
+![](images/fastlane_logo.png)
+
+
+###Using Fastlane With our shared Fastfile Steps are automated
+- Apple developer portal
+  - Creates the App ID
+  - Sets default entitlements 
+- iTunes-connect
+  - Adds a new app with the details your provided as environment variables
+
+
+##Adding a new App to the ADP and iTC
 ```
-fastlane init
+fastlane ios addNewApp
 ```
-![](images/fastlaneInit.png)
+
+![](images/addA_newAppTo_itc_and_adp.gif)
+
+
+##Wow, that was easy!
+<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+<!-- GetTheBabby-vBVCam8nE7uxy -->
 
 ---
 
@@ -259,50 +289,25 @@ fastlane init
 
 ---
 
-#New iOS app set-up
-###_(with)_
-
-![](images/fastlane_logo.png)
-
-
-###Using Fastlane With our shared Fastfile Steps are automated
-- Apple developer portal
-  - Creates the App ID
-  - Sets entitlements 
-- iTunes-connect
-  - Adds a new app with the details your provided as environment variables
-
-```
-$ fastlane ios addNewApp
-```
-
-![](images/withFastLane/fastLaneIosProfiles.png)
-
-
-##Adding a new App to the ADP and iTC
-```
-fastlane ios addNewApp
-```
-
-![](images/addA_newAppTo_itc_and_adp.gif)
-
-
-##Wow, that was easy!
-<iframe src="https://giphy.com/embed/vBVCam8nE7uxy?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
-<!-- GetTheBabby-vBVCam8nE7uxy -->
-
----
-
 ![](images/fastlane_logo.png)
 ##In action
 
 
 ##Testing your app
 ```
+git add . && git stash && git checkout master
 fastlane ios test
 ```
 
 <img src="images/test.gif">
+
+
+##Deploying to HockeyApp
+```
+fastlane hockeyApp --env enterprise
+```
+
+- https://rink.hockeyapp.net/manage/apps/361738
 
 
 ##Deploying to iTunes-Connect Test-flight
@@ -312,11 +317,7 @@ fastlane ios beta
 
 <img src="images/testFlight-iTunesConnect.gif">
 
-
-##Deploying to HockeyApp
-```
-fastlane ios hockeyApp
-```
+- [View in iTunes-Connect]https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/1125513788/activity/ios/builds
 
 
 ##Travis CI Fastlane test
@@ -469,16 +470,13 @@ SLACK_URL='https://hooks.slack.com/services/T1SAACXKM/B1SBLBA68/ZRJNnEKGVIOvpQvD
 <!-- <iframe src="https://giphy.com/embed/2ur8NS5TYQmK4?hideSocial=true" width="680" height="567" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe> -->
 <!-- CuddleFest-2ur8NS5TYQmK4 -->
 
-
-![](images/FastLaneBranchingStrategy.png)
-
 ---
 
 ![](images/fastlane_logo.png)
 ##Next Steps
 - Go Migrate your application's CI/CD process to Fastlane
 - Being interacting with the community (https://github.com/fastlane/fastlane)
-- Start contributing
+- Start contributing or writing your own [plugins](https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Plugins.md)
 
 ---
 
